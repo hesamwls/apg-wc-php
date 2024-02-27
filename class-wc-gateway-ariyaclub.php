@@ -178,7 +178,7 @@ function Load_ariyaclub_Gateway()
                     switch ($method) {
                     case "VERIFT":
                     curl_setopt_array($curl, array(
-                      CURLOPT_URL => 'https://api.ayria.club/apg/v1/verify/'.$params['refrenceCode'],
+                      CURLOPT_URL => 'https://api.ayriaclub.ir/apg/v1/verify/'.$params['refrenceCode'],
                       CURLOPT_RETURNTRANSFER => true,
                       CURLOPT_ENCODING => '',
                       CURLOPT_MAXREDIRS => 10,
@@ -194,7 +194,7 @@ function Load_ariyaclub_Gateway()
                     break;
                     default:
                     curl_setopt_array($curl, array(
-                      CURLOPT_URL => 'https://api.ayria.club/apg/v1/'.$action,
+                      CURLOPT_URL => 'https://api.ayriaclub.ir/apg/v1/'.$action,
                       CURLOPT_RETURNTRANSFER => true,
                       CURLOPT_ENCODING => '',
                       CURLOPT_MAXREDIRS => 10,
