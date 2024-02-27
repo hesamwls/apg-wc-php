@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: درگاه پرداخت آیریا
-Version: 1.0.0
+Version: 1.1.0
 Description: افزونه درگاه پرداخت آیریا برای فروشگاه ساز وردپرس
 Plugin URI: https://ayriaplatform.com
 Author: Ariya Rashidi
